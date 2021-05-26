@@ -36,15 +36,12 @@ Endif
 Endif 
 IF total_Investment (totalRevenue > totalCost) THEN
 totalRevenue – totalCost 
-Display(positive) total_Investment / finical_returns
+Display(positive) total_Investment / financial_returns
 ELSE IF
 total_Investment (totalCost> totalRevenue) THEN
 totalCost - totalRevenue 
-Display(negative) total_Investment / finical_returns
+Display(negative) total_Investment / financial_returns
 }
-
-
-
 
 
 
