@@ -24,17 +24,43 @@ Display(positive) total_Investment / finical_returns
 
 
 #Pseudocode create efficiency in the human resource function.
+Start
+EmployeeDetails()
+calculateMonthlyInvoice()
+End
 
 
 
-
-
-
-
-
-
-
-
+EmployeeDetails(Employee_Name, Employee_ID, Employee_Passcode){
+Prompt Employee_Name
+Get Employee_Name
+DO 
+Count = count +1
+Display “This ID does not exist in the system.”
+Prompt Employee_ID
+Get Employee_ID
+UNTIL(Employee_ID = Employee_ID(count)) 
+If  Employee_ID = Employee_ID(count) then
+    If Employee_Name(Employee_ID(count)) = Employee_Name then
+         Display “Welcome”+ Employee_Name
+         Prompt Employee_Passcode
+         Get Employee_Passcode
+          DO
+          Count = count +1
+           Display “Wrong passcode entered. Please try again.”
+           Prompt Employee_Passcode
+           Get Employee_Passcode
+           UNTIL (Employee_Passcode = Employee_Passcode(Employee_ID(count))
+           If Employee_Passcode = Employee_Passcode(Employee_ID(count)
+                  Display “Setting things up for you ” Employee_Name “, please be patient.”
+           ENDIF
+     Else
+         Display “Your ID does not match with the name entered.”
+     endif
+Else
+    Display “ID does not exist in the system.”
+ENDIF
+}
 
 
 
