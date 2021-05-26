@@ -17,8 +17,32 @@
 
 
 
-#Pseudocode create customer relationship management database to serve as a sales tool.
 
+
+
+
+
+calculateMonthlyInvoice(HourlySalary, Hours_In_Month, Days_In_Month, Working_Hours, Employee_Name, TaxDeducted){
+Prompt HourlySalary
+Get HourlySalary
+Prompt Working_Hours
+Get Working_Hours
+Prompt Days_In_Month
+Get Days_In_Month
+Prompt Hours_In_Month
+Get Hours_In_Month
+Prompt TaxDeducted
+Get TaxDeducted
+Hours_In_Month  = Working_Hours * Days_In_Month
+Total_income =  Hours_In_Month * HourlySalary 
+InvoiceAfterTax = (Total_income – TaxDeducted) * (Total_income / 100)
+Display InvoiceAfterTax, Employee_Name
+}
+
+
+
+
+#Pseudocode create customer relationship management database to serve as a sales tool.
 START
   Get all customerInfo
     customerInfo atributes:
@@ -94,7 +118,6 @@ START
     display marketing, sales and customerInfo
   elif level of access employee level:
     display sales and customerInfo
-    
  DONE
  
     
