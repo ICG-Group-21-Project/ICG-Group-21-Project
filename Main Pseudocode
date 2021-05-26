@@ -1,4 +1,31 @@
 #Pseudocode that creates value for the business measured in financial returns per product/service portfolio.
+Start 
+totalCostinvestment()
+historicalReturn()
+totalRevenueinvestment()
+total_Investment()
+
+total_Investment and calculate_Investment()
+calculate_Investment (totalCost,historicalReturn,totalRevenue){
+prompt totalCost
+get historicalReturns
+prompt totalRvenue
+get totalRevenue
+prompt total_Investment 
+get total_Investment
+
+IF totalCost
+calculateSum (Cost_goods+Operating_expenses)
+Display totalCost
+Endif
+IF historicalRevenue
+For old_price==Num1 
+For recent_price==Num2
+calculateSum (Num2-Num1)THEN
+=amount/Num1 * 100
+Display historicalReturn%
+    Endif 
+  Endif 
 Endif 
 For quantity_sold = Number1
 For price = Numbers 2 
@@ -13,7 +40,7 @@ Display(positive) total_Investment / finical_returns
 ELSE IF
 total_Investment (totalCost> totalRevenue) THEN
 totalCost - totalRevenue 
-Display(positive) total_Investment / finical_returns
+Display(negative) total_Investment / finical_returns
 }
 
 
