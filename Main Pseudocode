@@ -19,6 +19,85 @@
 
 #Pseudocode create customer relationship management database to serve as a sales tool.
 
+START
+  Get all customerInfo
+    customerInfo atributes:
+    {customerNumber, customerID, nationality, E-mail, location, companyDetails, gender, interests, hobies,}
+    
+  Create relational Databasebase Managment System:
+    (RDBMS)name = instantService
+    
+  create table in {RDBMS}for customerInfo
+    table name = customerInfo
+    
+  Record and create customer activities table
+    Cuestomer activity atributes:
+    {number_of_calls, number_of_logins, time_spent_on_app and website, number+of_purchases, number+of_visits_to_store}
+  create table for customerActivity
+    table name = customerActivity
+    
+  create table source of lead
+    social media or google
+    table name = sourceOflead
+    
+  record and create table sales
+    table name = All sales Info
+    
+ # categorise customer based on customerActivity: number_of_logins, number_of_visits_to_store, time_spent_on_app, number_of_purchases
+    customer categories: customer_as_stranger, customer_as_aquintance, customer_as_friend and CUstomer_as_partner
+    
+    if customer in database but with no activities:
+      customer = customer_as_stranger
+    elif customer has rare visits and activities online:
+      customer = customer_as_aquintance
+    elif customer has frequient visits and online activities:
+      customer = customer_as_friend
+    elif customer has most frequient visits and online activities:
+      customer = customer_as_partner
+       
+       end if
+      endif
+     endif
+    endif
+    
+  # thurther categorise customer by premiumUser or normalUser
+    if customer a premium user:
+      placee customer under premiumUser
+    else:
+      place customer under normalUser
+    end if
+    
+  #create customerEmployee relationship table in (RDBMS) database
+  
+  
+  MARKETING
+    - premium adverts
+    - normal adverts
+  if customer a premiumUser:
+    send customer premiun adverts
+  else:
+    send customer premium adverts
+  end if
+  
+  # send customer adverts based on customer gender
+  get customer gender
+  if customer a male:
+    send customer male product adverts
+  else:
+    send customer female producr adverts
+  end if
+  
+  LEVEL OF ACCESS TO DATABASE
+  if level of access managerial level:
+    display all access
+  elif level of access senior level:
+    display marketing, sales and customerInfo
+  elif level of access employee level:
+    display sales and customerInfo
+    
+ DONE
+ 
+    
 
 
 
