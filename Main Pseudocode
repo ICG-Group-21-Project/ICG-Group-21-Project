@@ -1,4 +1,20 @@
 #Pseudocode that creates value for the business measured in financial returns per product/service portfolio.
+Endif 
+For quantity_sold = Number1
+For price = Numbers 2 
+IF totalRevenue
+calculateSum (Number1 × Number2)
+Display totalRevenue 
+Endif 
+Endif 
+IF total_Investment (totalRevenue > totalCost) THEN
+totalRevenue – totalCost 
+Display(positive) total_Investment / finical_returns
+ELSE IF
+total_Investment (totalCost> totalRevenue) THEN
+totalCost - totalRevenue 
+Display(positive) total_Investment / finical_returns
+}
 
 
 
